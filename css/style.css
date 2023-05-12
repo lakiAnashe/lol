@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/img/background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.container-home {
+  height: 100vh;
+}
+.container-home .home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.container-home .logo img {
+  height: 120px;
+  border-radius: 45%;
+}
+.container-home .navigator {
+  font-size: 1.7rem;
+  font-family: "Lato", sans-serif;
+}
+.container-home a {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  transition: font-size, 2s;
+}
+.container-home a:hover {
+  font-size: 2.4rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+main span {
+  display: flex;
+  justify-content: space-between;
+}
+main .img-main {
+  background-color: rgba(131, 131, 131, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 50px;
+}
+main img {
+  position: relative;
+  width: 300px;
+  position: relative;
+  padding: 50px;
+  align-items: center;
+}
+main .text-main {
+  position: relative;
+  width: 50%;
+  max-width: 700px;
+  text-align: initial;
+  padding: 0 20px;
+}
+main .frase {
+  color: white;
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  max-width: 450px;
+  align-items: center;
+}
+
+.container-cards {
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container-cards .card {
+  width: 350px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(31, 31, 31, 0.1);
+  border-left: 1px solid rgba(3, 3, 3, 0.5);
+  border-top: 1px solid rgba(3, 3, 3, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.container-cards .cover-card {
+  width: 100%;
+  height: 130px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.container-cards .cover-card img {
+  width: 110%;
+  transition: all 300ms;
+}
+.container-cards .card .title-card {
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 20px;
+  color: aliceblue;
+}
+.container-cards .card .text-card {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  color: aliceblue;
+}
+.container-cards .card .price {
+  margin-top: 35px;
+  font-size: 15px;
+  font-weight: 500;
+  width: 55px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 5px;
+}
+.container-cards .card .btn-comprar {
+  padding: 20px;
+  margin-top: 25px;
+  margin-left: 120px;
+  background: none;
+  border-radius: 15px;
+  color: red;
+  border-color: white;
+  transition: all 300ms;
+}
+.container-cards .card .btn-comprar:hover {
+  transform: scale(1.1);
+  color: white;
+  background-color: black;
+}
+
+.contact {
+  max-width: 100%;
+  height: 60vh;
+  background-color: black;
+  color: white;
+}
+.contact .contact-tittle {
+  font-size: 70px;
+  color: red;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 10px;
+  padding: 15px;
+}
+.contact .contact-form {
+  padding-left: 30px;
+  align-items: center;
+}
+.contact .labelbox {
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.contact input {
+  border-radius: 5px;
+  height: 20px;
+  width: 400px;
+}
+.contact .btn-send {
+  color: black;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+  width: 50px;
+  height: 45px;
+}/*# sourceMappingURL=style.css.map */
